@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #444; }
+
+.app_wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  color: #111111; }
+
+.question_wrapper {
+  margin-bottom: 15px; }
+
+.question__title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.btn-send {
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #003473;
+  color: #fff; }
+
+.answer-button {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px; }
+  .answer-button input[type=checkbox], .answer-button input[type=radio] {
+    display: none; }
+  .answer-button input[type=checkbox] + label:after {
+    content: "";
+    display: block;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #939598;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .answer-button input[type=checkbox]:checked + label:before {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 8px;
+    border: 1px solid #939598;
+    background-color: #003473;
+    position: absolute;
+    top: 3px;
+    left: 3px; }
+  .answer-button input[type=radio] + label:after {
+    content: "";
+    display: block;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1px solid #939598;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .answer-button input[type=radio]:checked + label:before {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid #939598;
+    background-color: #003473;
+    position: absolute;
+    top: 3px;
+    left: 3px; }

@@ -1,0 +1,1807 @@
+{
+  "title": "Тестирование",
+  "status": "inactive",
+  "parts": [
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb1",
+                  "title": "На New Touareg установлен ассистент ночного видения Night Vision, назовите дальность работы данного ассистента?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Более 100 метров",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Менее 100 метров",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "100 метров",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "150 метров",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb2",
+                  "title": "New Touareg оснащен ассистентом Front Assist, дальность действия радара  составляет до 250 метров. Назовите скоростной диапазон работы данного ассистента?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "10-200 км/ч",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "30-250 км/ч",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "15-200 км/ч",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "50-250 км/ч",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb3",
+                  "title": "Какое расстояние работы системы Side Assist?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "До 100 метров",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "До 90 метров",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "До 80 метров",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "До 70 метров",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb4",
+                  "title": "Назовите угол обнаружения транспортных средств ассистента проезда перекрестков?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "150",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "110",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "120",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "180",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb5",
+                  "title": "С какой скорости начинает работать Dynamic Light Assist?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "20 км/ч",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "25 км/ч",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "30 км/ч",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "40 км/ч",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "cbl1",
+                  "title": "Назовите отличие проекционного дисплея New Touareg от проекционного дисплея Passat?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "checkBoxList",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Цветное отображение данных",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Рамка проекционного дисплея стала шире",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Отображение большого количества систем",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Зеркалирование данных происходит на лобовое стекло",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb7",
+                  "title": "Система ночного видения Night Vision позволяет",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Отличать людей от животных",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Распознавать деревья, камни, кусты",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Выводить изображение на проекционный дисплей",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Выключать ближний или дальний свет фар",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb8",
+                  "title": "Назовите отличие работы системы Multi Collision Brake от предыдущих версий",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Позволяет избежать повторных столкновений",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Затормаживает автомобиль при распознавании столкновения по сигналам от подушек безопасности до 10 км/ч",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Одновременно включаются стоп-сигналы и аварийная сигнализация",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Торможение происходит до полной остановки",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb9",
+                  "title": "Сколько программ массажа доступно в креслах New Touareg?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "5",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "6",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "7",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "8",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb10",
+                  "title": "Сколько вариантов интерьерной подсветки возможно в New Touareg?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "30",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "3",
+                        "class": null,
+                        "value": 2,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "10",
+                        "class": null,
+                        "value": 3,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "15",
+                        "class": null,
+                        "value": 4,
+                        "displayCondition": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb11",
+                  "title": "Укажите количество динамиков в аудиосистеме Dynaudio",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "10 + 1 сабвуфер",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "8 + 1 сабвуфер",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "9 + 1 сабвуфер",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "12 + 1 сабвуфер",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb12",
+                  "title": "Укажите верный вариант двигателей New Touareg",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "R4 TSI 249 лс/ V6 TSI 341 лс",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "R4 TSI 249 лс/ V6 TDI 249 лс/ V6 TSI 340 лс",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "R4 TSI 250 лс/ V6 TSI 340 лс",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "R4 TSI 250 лс/ V6 TDI 250 лс/ V6 TSI 340 лс",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb13",
+                  "title": "Укажите максимальный куртящий момент на двигателе серии EA 897",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "500",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "550",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "600",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "650",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb14",
+                  "title": "Укажите максимальный куртящий момент на двигателе серии EA 888",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "370",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "400",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "420",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "480",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb15",
+                  "title": "На New Touraeg установлено новое поклоении АКПП от ZF, назовите его уникальные преимущества",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "MAX крутящий момент 700 Нм, электронное переключение передач, функция движения накатом",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "MAX крутящий момент 650 Нм, переключение передач при помощи двух отдельных штоков , наличии демпферов",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "MAX крутящий момент 600 Нм, переключение передач при помощи двух отдельных штоков , наличии демпферов",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "MAX крутящий момент 550 Нм, электронное переключение передач, функция движения накатом",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb16",
+                  "title": "Radio control",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "- 40 мм",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "- 50 мм",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "+ 30 мм",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "- 20 мм",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb17",
+                  "title": "Назовите максимальный угол поворота колес задней оси на New Touareg",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "12",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "10",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "5",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "3",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb18",
+                  "title": "Сколько вариантов режима движения можно выбрать в New Touraeg?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "6",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "7",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "8",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "9",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb19",
+                  "title": "Назовите длину и ширину New Touareg (мм)",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "4878/1984",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "4800/1990",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "4878/1990",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "4978/1984",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb20",
+                  "title": "Назовите объем багажного отделения New Touareg",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "880",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "800",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "810",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "820",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb21",
+                  "title": "Из чего состоит комбинированный кузов New Touareg?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Аллюминий",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Железо, сталь и алюминий ",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "Аллюминевый сплав и сталь",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "Железо и аллюминевый сплав",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb22",
+                  "title": "Какое распределение момента на переднюю ось возможно на New Touareg?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "70/30",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "80/20",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "90/10",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "100/00",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb23",
+                  "title": "Назовите дальность освещения матричных LED-фар IQ.Light",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "100 метров",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "150 метров",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "200 метров",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "130 метров",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "cbl2",
+                  "title": "У кого из конкурентов присутствует управляемая задняя ось?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "checkBoxList",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Land Rover",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Infiniti",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "Lexus",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "BMW",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb25",
+                  "title": "Назовите срок действия гарантии на Volkswagen Teramont",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "4 года или 120 000 км",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "2 года без ограничения пробега",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "3 года или 100 000 км",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "2 года или 120 000 км",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb26",
+                  "title": "Сколько детских кресел возможно установить на втором ряде сидений Volkswagen Teramont?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "3",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "2",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "1",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "4",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb27",
+                  "title": "Назовите максимальный объем грузового отделения Volkswagen Teramont (литров)",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "2741",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "1421",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "2945",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "2500",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb28",
+                  "title": "Сколько вариантов режима движения можно выбрать в Volkswagen Teramont?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "2",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "3",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "4",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "5",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb29",
+                  "title": "Какой из перечисленных ниже ассистентов нет в Volkswagen Teramont",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "Lane Assist",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "Adaptive Cruise Control",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "Blind Spot Monitor",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "Trailer Assist",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part",
+      "class": null,
+      "description": null,
+      "displayCondition": null,
+      "sections": [
+        {
+          "title": "Section",
+          "class": null,
+          "description": null,
+          "displayCondition": null,
+          "groups": [
+            {
+              "class": null,
+              "displayCondition": null,
+              "controls": [
+                {
+                  "class": null,
+                  "id": "rb30",
+                  "title": "С какой скорости начинает активно работать Line Assist в Volkswagen Teramont?",
+                  "description": null,
+                  "placeholder": null,
+                  "displayCondition": null,
+                  "validateConditions": null,
+                  "type": "radioButtons",
+                  "options": {
+                    "$type": "Option[]",
+                    "value": [
+                      {
+                        "title": "50 км/ч",
+                        "class": null,
+                        "value": 1,
+                        "displayCondition": null
+                      },
+                      {
+                        "title": "40 км/ч",
+                        "class": null,
+                        "value": "2",
+                        "displayCondition": null
+                      },
+                      {
+                        "class": null,
+                        "title": "60 км/ч",
+                        "value": "3"
+                      },
+                      {
+                        "class": null,
+                        "title": "80 км/ч",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultPart": {
+    "title": "Part",
+    "class": null,
+    "description": null,
+    "displayCondition": null,
+    "sections": []
+  },
+  "id": 2,
+  "createdAt": "2018-07-11T09:47:30.09879+00:00",
+  "updatedAt": "2018-07-11T09:47:30.09879+00:00",
+  "isDeleted": false
+}
