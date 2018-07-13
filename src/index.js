@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import form from './form.json'
 
-var lala = undefined;
 
 const Questions = (props) => {
 	const { questions, saveResponse, toggleResponseCheckbox } = props;
@@ -91,7 +90,10 @@ const SendButton = (props) => {
 	const { sendData } = props;
 
 	return(
-		<div className="btn btn-send" onClick={() => sendData(1, 2, "https://api.appercode.com/v1/", "volkswagen", "29ba0dce-a7c0-442a-84f1-49daea0647e0")}>Отправить</div>
+		<div	className="btn btn-send" 
+					onClick={() => sendData(1, 2, "https://api.appercode.com/v1/", "volkswagen", "3f5e1949-3b66-473c-bda3-a317084ae753")}>
+					Отправить
+		</div>
 	)
 }
 
@@ -218,17 +220,15 @@ class App extends React.Component {
 }
 
 function sessionFromNative(e) {
+	alert(e);
   const userData = JSON.parse(e);
   const session = userData.sessionId;
   const userId = userData.userId;
   const project = userData.projectName;
   const baseUrl = userData.baseUrl;
 	const refreshT = userData.refreshToken;
+
 	
-	lala = 12;
-
-	console.log(lala)
-
   /*ReactDOM.render(<App 	session = {session}
 												userId = {userId}
 												project = {project}
@@ -236,9 +236,8 @@ function sessionFromNative(e) {
 												refreshT = {refreshT}/>, 
 									document.getElementById('root'));*/
 }
-
+ReactDOM.render(<App />, document.getElementById('root'));
+sessionFromNative('{"sessionId":"3f5e1949-3b66-473c-bda3-a317084ae753","userId":"1","project": "volkswagen","baseUrl":"https://api.appercode.com/v1/","refreshT":"1"}')
 /*
 '{"sessionId":"29ba0dce-a7c0-442a-84f1-49daea0647e0","userId":"1","project": "volkswagen","baseUrl":"https://api.appercode.com/v1/","refreshT":"1"}'
 */
-ReactDOM.render(<App />, document.getElementById('root'));
-//sessionFromNative('{"sessionId":"29ba0dce-a7c0-442a-84f1-49daea0647e0","userId":"1","project": "volkswagen","baseUrl":"https://api.appercode.com/v1/","refreshT":"1"}')
