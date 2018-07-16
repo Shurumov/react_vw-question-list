@@ -2,12 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import logo from './vw.png';
 
 const Welcome = (props) => {
 	const {beginTest} = props;
 	return  <div className="welcome-page">
-						<img src={logo} alt=""/>
+						<img src="http://api.konferenza.com/upload/documents/appercode/vw/vw.png" alt=""/>
 						<h2>Ответьте на 10 вопросов о Volkswagen Touareg</h2>
 						<BeginTest beginTest={beginTest} />
 					</div>
@@ -114,7 +113,7 @@ const SendButton = (props) => {
 
 const ScreenGratitude = () => {
 	return <div className="gratitude-page">
-						<img src={logo} alt=""/>
+						<img src="http://api.konferenza.com/upload/documents/appercode/vw/vw.png" alt=""/>
 						<h2>Ваши ответы сохранены, спасибо</h2>
 				</div>
 }
