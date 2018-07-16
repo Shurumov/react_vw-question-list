@@ -125,6 +125,8 @@ class App extends React.Component {
 	constructor(props){
 		super(props);
 		this.state = {
+			session: null,
+			userId: null,
 			idAndAnswers: null,
 			questions: [],
 			displayBlocks:
@@ -151,6 +153,37 @@ class App extends React.Component {
 	
 	
 	componentDidMount() {
+		
+		function login(baseUrl, projectName, formId, app){
+
+			var xhr = new XMLHttpRequest();
+			xhr.open('POST', baseUrl + projectName + "/login/anonymous/", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState != 4)
+					return;
+				if (xhr.status != 200) {
+					alert(xhr.status + ': ' + xhr.statusText);
+				} else {
+					var response = JSON.parse(xhr.responseText);
+					console.log(response);
+					userId = response.userId;
+					session = response.sessionId;
+					console.log(userId);
+					console.log(session);
+					app.setState({
+						session: session,
+						userId: userId
+					})
+					getForm(userId, formId, baseUrl, projectName, session, app);
+				}
+			};
+			xhr.send(baseUrl + projectName + "/login/anonymous/");
+
+			
+
+		}
 
 		function getForm (userId, formId, baseUrl, projectName, session, app) {
 			var xhr = new XMLHttpRequest();
@@ -170,12 +203,12 @@ class App extends React.Component {
 					var response = JSON.parse(xhr.responseText);
 					partsFromJson = response.parts;
 					
-					checkExecution(userId, formId, app)
+					createQuestionsForUser(app);
 				}
 			}
 		}
 
-		function checkExecution(userId, formId){
+		/*function checkExecution(userId, formId){
 			var xhr = new XMLHttpRequest();
 			xhr.open('GET', baseUrl + projectName + "/objects/Answers?include=%5B'userId'%2C'formId'%5D&take=-1");
 			xhr.setRequestHeader('X-Appercode-Session-Token', session);
@@ -201,12 +234,12 @@ class App extends React.Component {
 							displayBlocks: displayBlocks
 						})
 					} else {
-						createQuestionsForUser(app);
+						
 					}
 					
 				}
 			}
-		}
+		}*/
 
 		function createQuestionsForUser(app){
 
@@ -244,14 +277,15 @@ class App extends React.Component {
 			})
 		}
 
-		const {userId, formId, baseUrl, projectName, session} = this.props;
+		let {userId, formId, baseUrl, projectName, session} = this.props;
 		let partsFromJson;
 		let questionsForUser =[];
 		let countQuestions = 0;
 		let idAndAnswers = {}
 		const selectedIdQuestions=[];
 		const app = this;
-		getForm(userId, formId, baseUrl, projectName, session, app);
+		login(baseUrl, projectName, formId, app);
+		
 
 	}
 
@@ -283,7 +317,7 @@ class App extends React.Component {
 	}
 
 	sendData(userId, formId, baseUrl, project, session) {
-
+		console.log({userId, formId, baseUrl, project, session});
 		const idAndAnswers = this.state.idAndAnswers;
 		const result = JSON.stringify(idAndAnswers);
 		const body = '{"userId":"'+ userId+
@@ -314,9 +348,9 @@ class App extends React.Component {
 	}
 
   render() {
-		const { questions, displayBlocks } = this.state;
+		const { questions, displayBlocks, session, userId } = this.state;
 		const { saveResponseRadio, toggleResponseCheckbox, sendData, beginTest } = this;
-		const { userId, baseUrl, projectName, session, formId} = this.props;
+		const { baseUrl, projectName, formId} = this.props;
     return (<div className="app_wrapper">
 							{displayBlocks.welcome ? <Welcome beginTest ={beginTest}/> : null}
 
@@ -344,7 +378,7 @@ class App extends React.Component {
   }
 }
 
-function sessionFromNative(e) {
+/*function sessionFromNative(e) {
   const userData = JSON.parse(e);
   const session = userData.sessionId;
   const userId = userData.userId;
@@ -352,14 +386,17 @@ function sessionFromNative(e) {
   const baseUrl = userData.baseUrl;
 
 	
-	ReactDOM.render(<App 
-										session={session} 
-										userId={userId}
-										baseUrl={baseUrl}
-										projectName={projectName}
-										formId={2}
-									/>, document.getElementById('root'));
-}
+	
+}*/
 
-sessionFromNative('{"sessionId":"6794fef7-4b92-4c7a-91a2-3417cf383097","userId":"1","projectName": "volkswagen","baseUrl":"https://api.appercode.com/v1/","refreshT":"1"}')
+ReactDOM.render(<App 
+	/*session={session} 
+	userId={userId}*/
+	baseUrl={"https://api.appercode.com/v1/"}
+	projectName={"volkswagen"}
+	formId={2}
+/>, document.getElementById('root'));
+
+
+//sessionFromNative('{"sessionId":"6794fef7-4b92-4c7a-91a2-3417cf383097","userId":"1","refreshT":"1"}')
 
