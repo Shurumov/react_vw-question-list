@@ -19,6 +19,7 @@ body {
   margin-bottom: 10px; }
 
 .btn {
+  text-decoration: none;
   display: block;
   margin: 0 auto;
   padding: 10px;

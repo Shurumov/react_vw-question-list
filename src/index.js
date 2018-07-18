@@ -104,10 +104,10 @@ const SendButton = (props) => {
 	const { sendData, userId, formId, baseUrl, projectName, session } = props;
 
 	return(
-		<div	className="btn btn-send" 
+		<a	href="actor:1905" className="btn btn-send" 
 					onClick={() => sendData(userId, formId, baseUrl, projectName, session)}>
 					Отправить
-		</div>
+		</a>
 	)
 }
 
@@ -268,7 +268,7 @@ class App extends React.Component {
 			));
 			
 			const displayBlocks = app.state.displayBlocks
-			displayBlocks.welcome = true
+			displayBlocks.questions = true
 			app.setState({
 				questions: questionsForUser,
 				idAndAnswers: idAndAnswers,
